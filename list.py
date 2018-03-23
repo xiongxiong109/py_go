@@ -1,6 +1,8 @@
 # list 列表类型操作
 a = [1, 'a', True];
-
+# tuple 不可变有序列表
+t = (1, 'a', True);
+print(len(t));
 # 获取元素个数
 # print(len(a));
 
@@ -37,6 +39,6 @@ a = [1, 'a', True];
 # print(a[0:len(a):2]) # 每隔两个取一次值
 # 取索引
 # print(a.index('a'))
-if 'a' in a:
-    a.pop(a.index('a'))
-print(a)
+# if 'a' in a:
+#     a.pop(a.index('a'))
+# print(a)
