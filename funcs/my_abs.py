@@ -6,3 +6,7 @@ def myAbs(a):
 
 def pos(x, y):
     return myAbs(x), myAbs(y); # 有多个返回值的时候, 返回的是一个tuple(不可变列表)
+
+def abstractFun(str): # 定义一个空函数, 用pass来占位
+    if (str):
+        pass
