@@ -1,3 +1,6 @@
-from my_abs import myAbs;
+from my_abs import pos;
 
-print(myAbs(-3));
+# 返回第一象限的坐标
+absPosition = pos(1, 2);
+
+print(absPosition);
