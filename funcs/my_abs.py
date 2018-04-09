@@ -26,3 +26,18 @@ def appendB(L = None):
         L = [];
     L.append('END');
     return L;
+
+# 可变参数 * 表示长度可变, 对应的实参也要带上*
+def summy(*nums):
+    sum = 0;
+    for n in nums:
+        sum += n;
+    return sum
+
+# 必选参数、命名关键字参数、默认参数 **表示关键字参数, 对应的实参也要带上**
+def person(nm = 'xiong', age = 25, **keywords):
+    print(nm, 'aged', age, keywords);
+
+# 命名关键字参数, * 隔开, *后面的参数都是可选参数
+def superperson(nm, age, *, job = '', gender = 'male'):
+    print(nm, age, job, gender);
