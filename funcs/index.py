@@ -1,6 +1,6 @@
 # from my_abs import pos, abstractFun;
 # from quadratic import quadratic;
-from my_abs import superperson;
+# from my_abs import superperson;
 # 返回第一象限的坐标
 # absPosition = pos(1, 2);
 
@@ -30,4 +30,10 @@ from my_abs import superperson;
 
 # person('bear', 24, **extra);
 
-superperson('xiongxiong109', 25);
+# superperson('xiongxiong109', 25);
+
+from iterate import fact;
+
+rst5 = fact(5);
+
+print(rst5);
